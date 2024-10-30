@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-right: 40%;
+  cursor: pointer;
+}
+
+.removeBtn {
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  margin-left: 10%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.taskText {
+  text-align: left;
+}
